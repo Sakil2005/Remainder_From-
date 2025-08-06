@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #8ae4f0, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff00;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(55, 195, 50, 0.782);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="datetime-local"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #abaaaa;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #32867c;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
