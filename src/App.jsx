@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div class="container">
+    <div className="container">
       <h1> SMS Reminder</h1>
       <p>Send personalized SMS reminders to your customers easily</p>
       <form onSubmit={handleSubmit}>
